@@ -1,0 +1,38 @@
+<!-- blog.ejs -->
+  
+<%- include('header'); %>
+
+<h1>Mein Blog</h1>
+
+<div class="contaoner">
+  <% blog.forEach(function(post) { %>
+  <div class= "card">
+    <div class="card-header">
+      <div class =row g-0 >
+        <div class="col-md-8">
+          <h2><%= post.title %></h2>
+        </div>
+        <div class ="col-md-4 text-end">
+          <p><%= new Date(post.date).toLocaleDateString("deutsch") %></p>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="col-md-4">
+        <% if (post.file) { %>
+          <img src="<%= "http://localhost/" +post.file %>" alt="img-fluid" style ="padding:10px;" />
+        <% } %>
+      </div>
+      <div class ="col-md-8">
+        <p><%= post.text.substr(0,50) %></p>
+      </div>
+    </div>
+    <div class ="card-footer">
+      <a href="http://localhost/blog/<%=post.id%>" class="btn btn-primary">View Post</a>
+    </div>
+  </div>
+  <% }); %>
+</div>
+
+
+<%- include('footer'); %>

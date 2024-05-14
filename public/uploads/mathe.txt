@@ -1,0 +1,31 @@
+Aufgaben für einen Leergut-Rücknahmeautomaten könnten wie folgt lauten:
+
+Funktionsbeschreibung:
+Der Leergut-Rücknahmeautomat ermöglicht Kunden die Rückgabe von leeren Behältern wie Flaschen und Dosen, um das Leergut zu recyceln und eine Rückerstattung zu erhalten.
+Kunden können den Automaten nutzen, um ihr Leergut abzugeben und den entsprechenden Pfandbetrag zurückzuerhalten.
+Der Automat erkennt automatisch die Art des Leerguts (z. B. Flasche, Dose) und prüft, ob das Leergut in einem akzeptablen Zustand ist.
+Der Automat akzeptiert nur bestimmte Arten von Leergut, die mit einem Pfand belegt sind.
+Kunden können den Automaten entweder über einen Touchscreen oder physische Tasten bedienen, um ihre Auswahl zu treffen.
+Nach der Annahme des Leerguts ermittelt der Automat den Pfandbetrag und gibt dem Kunden eine Rückerstattung entweder in Form von Bargeld oder als Gutschrift auf eine Karte.
+UML-Diagramme:
+a) Use Case Diagramm:
+Zeigt die verschiedenen Interaktionen zwischen den Akteuren (Kunde, Automat) und den Use Cases (Leergut abgeben, Rückerstattung erhalten, etc.).
+Stellt die Funktionalität des Automaten in Bezug auf die Bedürfnisse der Benutzer dar.
+b) Aktivitätendiagramm:
+Beschreibt den Ablauf der einzelnen Aktivitäten, z. B. Leergut abgeben, Pfandbetrag ermitteln, Rückerstattung ausgeben.
+Zeigt die Sequenz und die Entscheidungspunkte während des Prozesses.
+c) Zustandsübergangsdiagramm:
+Zeigt die verschiedenen Zustände des Automaten und die möglichen Übergänge zwischen den Zuständen.
+Stellt den Lebenszyklus des Automaten dar, z. B. Bereit, Leergutannahme, Rückerstattung, Wartung usw.
+d) Sequenzdiagramm:
+Veranschaulicht die Interaktionen zwischen dem Kunden und dem Automaten während des Leergut-Rückgabeprozesses.
+Zeigt die Reihenfolge der Nachrichten und Aktionen zwischen den beteiligten Objekten.
+Prüfung der Komplexität:
+Überprüfen Sie, ob der Automat ausreichend komplex ist, um die verschiedenen syntaktischen Elemente der Diagramme zu zeigen.
+Stellen Sie sicher, dass die Diagramme untereinander konsistent sind und die Funktionsbeschreibung abdecken.
+Vermeiden Sie unnötige Komplexität, um die Diagramme übersichtlich und verständlich zu halten.
+Fazit:
+Bewerten Sie die Abdeckung der Automatenfunktionen durch die Diagramme.
+Beschreiben Sie, wie die Diagramme die verschiedenen Aspekte der Bedienung und Funktionalität des Automaten erfassen.
+Nennen Sie gegebenenfalls Aspekte, die nicht abgedeckt wurden und weitere Anpassungen erfordern.
+Bitte beachten Sie, dass die genaue Gestaltung der Diagram

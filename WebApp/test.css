@@ -1,0 +1,36 @@
+body {
+    background-color: gray;
+}
+footer {
+    color: blue;
+    border-style: solid;
+}
+h1 {
+    color: black;
+    background-color: red;
+    border-style: solid;
+    text-transform:uppercase;
+}
+.Logo {
+   float: inline-start;
+   float: right;
+   overflow: auto;
+   height: 100px;
+   width: 150px;
+}
+
+.Menü { 
+    float: left;
+    overflow:inherit;
+}
+#Content{
+    float: right;
+    width: 80%;
+}
+
+
+.Info {
+    float: right;
+    margin-top: 100%;
+}
+
